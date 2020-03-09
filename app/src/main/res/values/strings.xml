@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">supriseME2</string>
+    <string name="question"></string>
+    <string name="answer"></string>
+</resources>
