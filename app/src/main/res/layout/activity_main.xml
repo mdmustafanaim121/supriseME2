@@ -11,13 +11,12 @@
         android:id="@+id/suprise_question"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:text="Who is the 44th President of the United States?"
-        android:textSize="40sp"
-        android:textColor="@android:color/background_dark"
         android:layout_marginBottom="20dp"
         android:gravity="center"
         android:paddingStart="20dp"
-        />
+        android:text="Who is the 44th President of the United States?"
+        android:textColor="@android:color/background_dark"
+        android:textSize="40sp" />
 
     <TextView
 
@@ -27,11 +26,11 @@
         android:layout_below="@id/suprise_question"
         android:layout_marginTop="40dp"
         android:layout_marginBottom="20dp"
-        android:visibility="invisible"
-        android:textColor="@android:color/background_dark"
         android:gravity="center"
         android:text="Bill Clinton"
-        android:textSize="40sp" />
+        android:textColor="@android:color/background_dark"
+        android:textSize="40sp"
+        android:visibility="invisible" />
 
 
     <androidx.appcompat.widget.AppCompatImageView
@@ -44,4 +43,13 @@
         android:layout_marginBottom="26dp"
         android:src="@drawable/ic_add_circle_outline_black_24dp" />
 
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/editQ"
+        android:layout_width="69dp"
+        android:layout_height="108dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="26dp"
+        android:src="@drawable/ic_edit_black_24dp" />
 </RelativeLayout>

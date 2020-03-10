@@ -17,6 +17,10 @@ import android.view.View;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.google.android.material.snackbar.Snackbar;
+
+import org.w3c.dom.Text;
+
 
 public class MainActivity extends AppCompatActivity {
     String TAG="TAG";
@@ -29,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        final String question,answer;
 
 
         //loop to check answers
@@ -60,6 +65,17 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        question = ((TextView)(findViewById(R.id.suprise_question))).getText().toString();
+        answer = ((TextView)(findViewById(R.id.suprise_answer1))).getText().toString();
+        (findViewById(R.id.editQ)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent editClick = new Intent(MainActivity.this,AddCardActivity.class);
+                editClick.putExtra("key1",question);
+                editClick.putExtra("key2",answer);
+                MainActivity.this.startActivityForResult(editClick,121);
+            }
+        });
 
     }
 
@@ -72,7 +88,8 @@ public class MainActivity extends AppCompatActivity {
             ((TextView)findViewById(R.id.suprise_question)).setText(queUpdate);
             ((TextView)findViewById(R.id.suprise_answer1)).setText(ansUpdate);
 
-            Log.d(TAG,"Hello :" +queUpdate);
+            Snackbar.make(findViewById(R.id.suprise_question),"Card updated!",
+                    Snackbar.LENGTH_SHORT).show();
         }
     }
 
