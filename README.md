@@ -8,7 +8,7 @@ In this part of the application I have worked on implementing Intents, design an
 
 <img src="https://i.imgur.com/DZofl3J.gif" width=200><br>
 
-#### Update after optional task
+#### Update after optional taskhttp://imgur.com/a/38eTloA
 
 <img src="https://imgur.com/a/R6K0j8E.gif" width=200><br>
 
