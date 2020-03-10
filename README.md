@@ -5,6 +5,9 @@
 In this part of the application I have worked on implementing Intents, design and more!
 
 ### App Walk-though
+http://imgur.com/a/38eTloA
+
+<img src="http://imgur.com/a/38eTloA.gif" width=200><br>
 
 <img src="https://i.imgur.com/DZofl3J.gif" width=200><br>
 
