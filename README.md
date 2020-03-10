@@ -2,7 +2,7 @@
 ## Lab 2
 
 ### App Description
-In this part of the application I have worked on implementing Intents, 
+In this part of the application I have worked on implementing Intents, design and more!
 
 ### App Walk-though
 
@@ -17,8 +17,8 @@ In this part of the application I have worked on implementing Intents,
 - [x] Push your progress to GitHub!
 
 ## Optional
-- [ ] User can edit a card
-- [ ] An error message is shown if the user doesn't enter both a Question and an Answer
-- [ ] A notification is shown if the card was created successfully
+- [x] User can edit a card
+- [x] An error message is shown if the user doesn't enter both a Question and an Answer
+- [x] A notification is shown if the card was created successfully
 - [ ] User can also enter multiple choice answers when creating a card
 - [ ] App is further styled and customized!
