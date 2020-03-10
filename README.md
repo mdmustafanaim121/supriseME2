@@ -8,6 +8,9 @@ In this part of the application I have worked on implementing Intents, design an
 
 <img src="https://i.imgur.com/DZofl3J.gif" width=200><br>
 
+####Update after optional task
+
+img src="https://i.imgur.com/a/R6K0j8E.gif" width=200><br>
 
 ## Required
 - [x] User can click on a ‘+’ button that takes the user to new ‘Add Card Screen’
