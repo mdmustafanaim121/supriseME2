@@ -23,8 +23,28 @@
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:id="@+id/answer"
-        android:hint="Enter the answer here!"
+        android:hint="Enter the correct answer here!"
         android:layout_below="@+id/question"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/answer2"
+        android:hint="Enter the wrong answer here!"
+        android:layout_below="@+id/answer"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/answer3"
+        android:hint="Enter the wrong answer here!"
+        android:layout_below="@+id/answer2"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"
         />
